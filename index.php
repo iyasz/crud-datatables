@@ -99,7 +99,7 @@ if (isset($_POST['delete'])) {
             <div class="col-lg-11">
                 <div class="card">
                     <div class="card-body">
-                        <table class="table">
+                        <table id="table" class="table">
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -142,6 +142,9 @@ if (isset($_POST['delete'])) {
 
     <!-- datatables -->
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/datatables.min.js"></script>
+
+    <!-- scriptJS -->
+    <script src="script.js"></script>
 </body>
 
 </html>
